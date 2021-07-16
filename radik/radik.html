@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./radik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Installer</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">Installer</div>
+
+                <nav class="nav">
+                    <a class="nav__link" href="../index.html">Home</a>
+                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link" href="./radik/radik.html">Calculator</a>     
+                    <a class="nav__link" href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+<div class="title">
+    <h1>Расчет стальных радиаторов</h1>
+</div>
+    
+
+    <form>
+        <div class="block">
+            <label>Квадратура комнаты &#13217<input type="text" name="mether"></label>
+            
+        </div>
+        <div class="block">
+            <label>Высота потолков H<input type="text" name="height"></label>
+            
+        </div>
+
+    <div class="button">
+        <button>Расчитать</button>
+    </div>
+
+    <div class="result">
+       <table>
+           <th>Результат: </th>
+           <td id="result"> 0 Bm</td>
+           
+       </table>
+    </div>
+</form>
+<div class="img">
+    <img src="http://netholodu.com/wp-content/uploads/2018/09/podbor_moshnosti.jpg" alt="">
+</div>
+    <script src="./radik.js"></script>
+</body>
+</html>
